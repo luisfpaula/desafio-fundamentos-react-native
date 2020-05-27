@@ -24,6 +24,7 @@ export const ProductList = styled(
   FlatList as new () => FlatList<Product>,
 ).attrs({
   numColumns: 2,
+  refreshing: true,
 })`
   flex: 1;
   padding: 0 10px;
